@@ -1,10 +1,11 @@
-#include <iostream>
+﻿#include <iostream>
 
 using namespace std;
 
 void repchar();
 void repchar(char);
 void repchar(char, int);
+//void repchar(char = '*', int = 45);			//аргументы по умолчанию
 
 int main()
 {
@@ -42,3 +43,4 @@ void repchar(char ch, int n)
 	}
 	cout << endl;
 }
+
